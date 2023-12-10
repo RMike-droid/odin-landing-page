@@ -1,0 +1,1 @@
+This is my first attempt at a landing page. I will be incorporating basic HTML for structure (h1, div, a, p, etc.) as well as elements of style via CSS including FlexBox layout. 

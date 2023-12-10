@@ -1,0 +1,40 @@
+.container-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-button {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 300px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
