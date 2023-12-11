@@ -1,8 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .container-one {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 75px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,7 +20,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    margin-bottom: 48px;
 }
 
 .links {
@@ -22,19 +31,33 @@
 
 .hero-section {
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
+    flex: 1;
 }
 
 .text-button {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 img {
-    max-width: 300px;
+    max-width: 200px;
+    border-radius: 30px;
 }
 
-.hero-section {
-    display: flex;
-    justify-content: space-between;
+.text-button .main-text {
+    font-size: 32px;
+}
+
+.text-button .sub-text {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+button {
+    max-width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10% 30px;
 }
